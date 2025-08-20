@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "SMAAluno",
+    "slug": "SMAAluno",
+    "version": "2.3.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.gustavomatoi.SMAAluno"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.gustavomatoi.SMAAluno",
+      "newArchEnabled": true
+    },
+    "web": {
+      "output": "server",
+      "bundler": "metro"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7859726d-6bb4-40ab-8e4a-28d3ce47816c"
+      }
+    },
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}
